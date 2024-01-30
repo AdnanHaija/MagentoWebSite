@@ -1,20 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-29T15:53:25 EET" name="Default suite" finished-at="2024-01-29T15:53:37 EET" duration-ms="11422">
+  <suite started-at="2024-01-30T18:38:57 EET" name="Default suite" finished-at="2024-01-30T18:39:19 EET" duration-ms="21832">
     <groups>
     </groups>
-    <test started-at="2024-01-29T15:53:25 EET" name="Default test" finished-at="2024-01-29T15:53:37 EET" duration-ms="11422">
+    <test started-at="2024-01-30T18:38:57 EET" name="Default test" finished-at="2024-01-30T18:39:19 EET" duration-ms="21832">
       <class name="MyTestCases.SignUp">
-        <test-method is-config="true" signature="MySetup()[pri:0, instance:MyTestCases.SignUp@1e1d3956]" started-at="2024-01-29T15:53:26 EET" name="MySetup" finished-at="2024-01-29T15:53:26 EET" duration-ms="157" status="PASS">
+        <test-method is-config="true" signature="MySetup()[pri:0, instance:MyTestCases.SignUp@24d4d7c9]" started-at="2024-01-30T18:38:57 EET" name="MySetup" finished-at="2024-01-30T18:38:57 EET" duration-ms="154" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- MySetup -->
-        <test-method signature="MyFirstTest()[pri:0, instance:MyTestCases.SignUp@1e1d3956]" started-at="2024-01-29T15:53:26 EET" name="MyFirstTest" finished-at="2024-01-29T15:53:37 EET" duration-ms="11230" status="PASS">
+        <test-method signature="MyFirstTes()[pri:1, instance:MyTestCases.SignUp@24d4d7c9]" started-at="2024-01-30T18:38:57 EET" name="MyFirstTes" finished-at="2024-01-30T18:39:06 EET" duration-ms="8933" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- MyFirstTest -->
+        </test-method> <!-- MyFirstTes -->
+        <test-method signature="LogOut()[pri:2, instance:MyTestCases.SignUp@24d4d7c9]" started-at="2024-01-30T18:39:06 EET" name="LogOut" finished-at="2024-01-30T18:39:08 EET" duration-ms="1386" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogOut -->
+        <test-method signature="LogIn()[pri:3, instance:MyTestCases.SignUp@24d4d7c9]" started-at="2024-01-30T18:39:08 EET" name="LogIn" finished-at="2024-01-30T18:39:13 EET" duration-ms="5482" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogIn -->
+        <test-method signature="FooterTag()[pri:4, instance:MyTestCases.SignUp@24d4d7c9]" started-at="2024-01-30T18:39:13 EET" name="FooterTag" finished-at="2024-01-30T18:39:13 EET" duration-ms="38" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FooterTag -->
+        <test-method signature="AddOneRandomItem()[pri:5, instance:MyTestCases.SignUp@24d4d7c9]" started-at="2024-01-30T18:39:13 EET" name="AddOneRandomItem" finished-at="2024-01-30T18:39:19 EET" duration-ms="5772" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddOneRandomItem -->
       </class> <!-- MyTestCases.SignUp -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
